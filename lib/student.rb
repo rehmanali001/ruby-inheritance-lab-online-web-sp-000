@@ -7,4 +7,8 @@ class Student < User
   def learn(name)
     @knowledge << name
   end 
+  
+  def knowledge
+    return @knowledge
+  end 
 end
