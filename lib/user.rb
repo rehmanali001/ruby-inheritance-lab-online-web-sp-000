@@ -1,6 +1,5 @@
 class User 
-  attr_writer :first 
-  attr_reader :last
+  attr_accessor :first, :last
   def initialize(first, last)
     @first = first
     @last = last
