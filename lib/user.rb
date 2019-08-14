@@ -1,3 +1,4 @@
 class User 
-  attr
+  attr_writer 
+  attr_reader 
 end 
